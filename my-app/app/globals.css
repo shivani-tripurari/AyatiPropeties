@@ -6,18 +6,18 @@
 
 :root {
   --background: #1B3540;
-  --text1: #FBBC89;
+  --fore1: #FBBC89;
   --text2: #1E3A45;
 }
 
 
 
 body {
-  color: var(--text1);
-  background: var(--background);
+  color: var(--fore1);
+  /* background: var(--background); */
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 300;
   font-style: normal;
 }
 
