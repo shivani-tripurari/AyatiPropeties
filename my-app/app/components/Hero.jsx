@@ -11,9 +11,11 @@ const Hero = () => {
         <div className='absolute top-36 block mt-0 md:flex md:items-center md:justify-evenly lg:flex lg:items-center lg:justify-evenly '>
             <div className='mr-7'>
 
+
                 <h1 className='text-3xl text-[#1B3540] ml-36 my-7 lg:text-7xl'>MINDFUL
 
     
+
 
                 <br/> AND SUSTAINABLE</h1>
                 {/* <h3>Ayati Lake View</h3>
