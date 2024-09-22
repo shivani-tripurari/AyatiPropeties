@@ -8,6 +8,22 @@ import img5 from '../assets/ayati8.jpg'
 const Grid = () => {
   return (
     <>
+
+        <div className='relative pt-20 h-[220vh] lg:[100vh] w-[100%] bg-hero-pattern bg-background object-contain'>
+            <h1 className='text-3xl md:3xl lg:text-6xl py-7 flex justify-center items-center text-center lg:text-right lg:mr-20 lg:justify-end' >BUILDING THE FUTURE 
+                <br/> OF ECO LIVING</h1>
+            <div className='block lg:flex lg:justify-center lg:items:center'>
+                <div className='block px-7 lg:flex lg:flex-col lg:justify-evenly lg:items:center lg:mr-4'>
+                    <div className='bg-white h-[20rem] w-full mb-3 lg:w-[20rem]' ><Image src={img1} className='h-full w-full object-cover'/></div>
+                    <div className='bg-white h-[20rem] w-full mb-3 lg:w-[20rem]' ><Image src={img2} className='h-full w-full object-cover'/></div>
+                </div>
+                <div className='block px-7 lg:flex lg:flex-col lg:justify-center lg:items:center lg:mr-4' >
+                    <div className='bg-white h-[40rem] w-full mb-3 lg:w-[24rem]'><Image src={img3} className='h-full w-full object-cover'/></div>
+                </div>
+                <div className='block px-7 lg:flex lg:flex-col lg:justify-evenly lg:items:center'>
+                    <div className='bg-white h-[20rem] mb-3 w-full lg:w-[20rem]' ><Image src={img4} className='h-full w-full object-cover'/></div>
+                    <div className='bg-white h-[20rem] mb-3 w-full lg:w-[20rem]' ><Image src={img5} className='h-full w-full object-cover'/></div>
+
         <div className='relative pt-20 h-[170vh] md:h-[100vh] lg:h-[140vh] w-[100%] bg-hero-pattern bg-background object-contain'>
             <h1 className='text-3xl md:3xl lg:text-6xl py-7 flex justify-center items-center text-center lg:text-right lg:mr-20 lg:justify-end' >BUILDING THE FUTURE 
                 <br/> OF ECO LIVING</h1>
@@ -22,6 +38,7 @@ const Grid = () => {
                 <div className='block px-7  lg:flex lg:flex-col lg:justify-evenly lg:items:center'>
                     <div className='bg-white h-[12rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img4} className='h-full w-full object-cover'/></div>
                     <div className='bg-white h-[12rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img5} className='h-full w-full object-cover'/></div>
+
                 </div>
             </div>
         </div>
