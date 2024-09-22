@@ -1,4 +1,5 @@
 import React from 'react'
+
 import GetInTouch from './GetInTouch'
 const Footer = () => {
   return (
@@ -34,7 +35,6 @@ const Footer = () => {
         </div>
       </div>
     </>
-  )
-}
+)};
 
 export default Footer
