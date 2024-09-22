@@ -10,7 +10,7 @@ const Factor = () => {
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-12'>
             <div className='ml-7'>
                 <p className='text-base pl-7 md:text-lg lg:text-xl'>Why Us</p>
-                <h1 className='text-3xl p-7 md:3xl lg:text-5xl'>THE AYATI FACTOR </h1>
+                <h1 className='text-3xl text-[#1B3540] p-7 md:3xl lg:text-5xl'>THE AYATI FACTOR </h1>
 
     <div className='h-[112vh] w-[100%] exp-sec'>
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-12'>
