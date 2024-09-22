@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='mr-7'>
 
 
-                <h1 className='text-3xl text-[#1B3540] ml-36 my-7 lg:text-7xl'>MINDFUL
+                <h1 className='text-3xl text-[#FBBC89] ml-36 my-7 lg:text-7xl'>MINDFUL
 
     
 
