@@ -1,3 +1,6 @@
+"use client";
+
+import {motion,AnimatePresence} from 'framer-motion';
 import React from 'react'
 import Image from 'next/image';
 import img3 from '../assets/ayati3.jpg'
@@ -18,9 +21,13 @@ const Experience = () => {
             </div>
         </div>
         <div className='block relative md:flex lg:flex justify-center items-center'>
-            <div className='absolute top-[-2rem] z-10 p-7 h-[25rem] w-full md:w-3/5 lg:w-1/2 lg:left-28'>
+            <motion.div 
+                initial={{x:20, opacity:0}}
+                animate={{x:0, opacity:1}}
+                transition={{ease:'easeInOut', duration:0.75}}
+                className='absolute top-[-2rem] z-10 p-7 h-[25rem] w-full md:w-3/5 lg:w-1/2 lg:left-28'>
                 <Image src={img3}/>
-            </div>
+            </motion.div>
             <div className='absolute top-96 pt-20 p-7 pb-10 bg-[#1B3540] w-full lg:w-2/3 lg:top-[-4rem] lg:right-0 lg:pl-36'>
                 <h1 className='text-[#FBBC89]  text-3xl md:text-4xl lg:text-5xl'>Resilient in a constantly 
                     <br/>evolving world.</h1>
