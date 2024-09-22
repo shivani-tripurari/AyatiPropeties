@@ -9,7 +9,7 @@ const Experience = () => {
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-20'>
             <div className='ml-7'>
                 <p className='text-base md:text-lg lg:text-xl'>Who we are</p>
-                <h1 className='text-3xl md:3xl lg:text-7xl'>WE USE TRADITION <br/>
+                <h1 className='text-3xl text-[#1B3540] md:3xl lg:text-7xl'>WE USE TRADITION <br/>
                  TO BREAK IT.</h1>
             </div>
             <div className='mr-0 ml-64 mt-7 md:mt-11 lg:mt-11 lg:mr-7'>
