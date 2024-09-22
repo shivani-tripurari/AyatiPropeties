@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Prata&family=Viaoda+Libre&display=swap');
 :root {
   --background: #1B3540;
   --fore1: #FBBC89;
@@ -13,11 +13,12 @@
 
 
 body {
-  color: var(--text1);
+  color: var(--fore1);
   background: var(--background);
-  font-family: "Noto Serif", serif;
+  /* font-family: "Noto Serif", serif; */
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-family: "Prata", serif;
+  font-weight: 400;
   font-style: normal;
 }
 

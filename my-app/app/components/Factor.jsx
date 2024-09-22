@@ -5,11 +5,11 @@ import './exp.css';
 const Factor = () => {
   return (
     <>
-    <div className='h-[112vh] w-[100%] exp-sec'>
+    <div className='h-[126vh] w-[100%] exp-sec'>
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-12'>
             <div className='ml-7'>
-                <p className='text-base md:text-lg lg:text-xl'>Why Us</p>
-                <h1 className='text-3xl md:3xl lg:text-5xl'>THE AYATI FACTOR </h1>
+                <p className='text-base pl-7 md:text-lg lg:text-xl'>Why Us</p>
+                <h1 className='text-3xl p-7 md:3xl lg:text-5xl'>THE AYATI FACTOR </h1>
             </div>
             {/* <div className='mr-0 ml-64 mt-7 md:mt-11 lg:mt-11 lg:mr-7'>
                 <h3 className='text-3xl md:text-4xl lg:text-7xl'>15+</h3>
@@ -17,7 +17,7 @@ const Factor = () => {
             </div> */}
         </div>
         <div className='block relative md:flex lg:flex justify-center items-center'>
-            <div className='absolute top-[-2rem] z-10 p-7 h-[32rem] w-full md:w-3/5 lg:w-1/2 lg:left-28'>
+            <div className='absolute top-[-2rem] z-10 p-7 h-[27rem] w-full md:w-3/5 lg:w-1/2 lg:left-28'>
                 <Image src={img3}/>
             </div>
             <div className='absolute top-96 pt-20 p-7 pb-10 bg-[#1B3540] w-full lg:w-2/3 lg:top-[-4rem] lg:right-0 lg:pl-36'>
