@@ -8,9 +8,9 @@ const GetInTouch = () => {
       <div className='flex flex-col lg:flex-row justify-start items-center pt-10'>
         <form onSubmit="">
             {/* <label for="name" className='text-[#1E3A45]'>Name</label> */}
-            <input id="name" placeholder='Name' className='mr-11 mb-3 border-b-2 border-white w-80 lg:w-[36rem] focus:outline-none '/>
+            <input id="name" placeholder='Name' className='mr-11 mb-3 text-[#000000] border-b-2 border-white w-80 lg:w-[36rem] focus:outline-none '/>
             {/* <lable for="email">Email</lable> */}
-            <input id='email' placeholder="E-mail" className='mb-3 border-b-2 border-white w-80 lg:w-[36rem] focus:outline-none '/>
+            <input id='email' placeholder="E-mail" className='mb-3 text-[#000000] border-b-2 border-white w-80 lg:w-[36rem] focus:outline-none '/>
         </form>
       </div>
       <button className='mt-7 rounded-lg w-[7rem] p-2 bg-[#1E3A45] font-bold text-lg'>Sign-up</button>

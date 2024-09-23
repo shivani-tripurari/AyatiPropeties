@@ -1,5 +1,8 @@
 import React from 'react'
-
+import insta from '../assets/insta.svg'
+import facebook from '../assets/facebook.svg'
+import Image from 'next/image'
+import Link from 'next/link'
 import GetInTouch from './GetInTouch'
 const Footer = () => {
   return (
@@ -19,18 +22,18 @@ const Footer = () => {
             </div>
             <div className='text-xl'>
              <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Projects</li>
-                <li>Sustainablity</li>
-                <li>Contact us</li>
+                <Link href='/'> <li>Home</li> </Link>
+                <Link href='/about'><li>About us</li></Link>
+                <Link href='/projects'><li>Projects</li></Link>
+                <Link href='/sustain'><li>Sustainablity</li></Link>
+                <Link href='/contact'><li>Contact us</li></Link>
              </ul>
             </div>
           </div>
           <div className='flex flex-row justify-center items-end mr-32'>
             {/* socials */}
-            <h1>Instagram</h1>
-            <h1>Facebook</h1>
+            <Image src={insta} className='h-7 w-7 m-3' />
+            <Image src={facebook} className='h-7 w-7 m-3' />
           </div>
         </div>
       </div>
